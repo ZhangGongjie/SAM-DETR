@@ -1,2 +1,2 @@
-# SAM-DETR
-Official pytorch implementation of SAM-DETR (CVPR 2022)
+# SAM-DETR -- Official pytorch implementation of SAM-DETR (CVPR 2022)
+
