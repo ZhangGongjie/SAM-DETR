@@ -119,13 +119,13 @@ Please download [COCO 2017 dataset](https://cocodataset.org/) and organize them 
 
 ```
 code_root/
-©¸©¤©¤ data/
-    ©¸©¤©¤ coco/
-        ©À©¤©¤ train2017/
-        ©À©¤©¤ val2017/
-        ©¸©¤©¤ annotations/
-        	©À©¤©¤ instances_train2017.json
-        	©¸©¤©¤ instances_val2017.json
+â””â”€â”€ data/
+    â””â”€â”€ coco/
+        â”œâ”€â”€ train2017/
+        â”œâ”€â”€ val2017/
+        â””â”€â”€ annotations/
+        	â”œâ”€â”€ instances_train2017.json
+        	â””â”€â”€ instances_val2017.json
 ```
 
 
