@@ -13,7 +13,7 @@ attributed to the complication in matching object queries to encoded image featu
 in DETR's decoder cross-attention modules.
 
 <div align=center>  
-<img src='.assets/matching_complication.jpg' width="68%">
+<img src='.assets/matching_complication.jpg' width="70%">
 </div>
 
 Motivated by this observation, in our paper, we propose SAM-DETR, a
@@ -35,7 +35,7 @@ reference box for each object query, whose center location is used to generate
 corresponding position embeddings.
 
 <div align=center>  
-<img src='.assets/decoder_layer.jpg' width="86.5%">
+<img src='.assets/decoder_layer.jpg' width="90%">
 </div>
 
 The figure below illustrates the architecture of the appended "Semantics Aligner", which
@@ -43,7 +43,7 @@ aligns the semantics of "encoded image features" and "object queries" by resampl
 from multiple salient points as new object queries.
 
 <div align=center>  
-<img src='.assets/semantics_aligner.jpg' width="75%">
+<img src='.assets/semantics_aligner.jpg' width="78%">
 </div>
 
 Being like a plug-and-play, our approach can be
@@ -91,7 +91,9 @@ Then, activate the environment:
 conda activate sam_detr
 ```
 
-Then, install PyTorch and TorchVision (preferably using our recommended setups; CUDA version should match your own encvironment):
+Then, install PyTorch and TorchVision:
+
+(preferably using our recommended setups; CUDA version should match your own local environment)
 ```bash
 conda install pytorch=1.8.1 torchvision=0.9.1 cudatoolkit=10.1 -c pytorch
 ```
@@ -138,7 +140,7 @@ code_root/
 
 ### Reproducing Paper Results
 
-All scripts to reproduce results reported in [our CVPR'2022 paper](https://arxiv.org/abs/2203.06883)
+All scripts to reproduce results reported in [our CVPR 2022 paper](https://arxiv.org/abs/2203.06883)
 are stored in ```./scripts```. 
 
 Taking <b>SAM-DETR-R50 w/ SMCA (12 epochs)</b> for example, to reproduce its results, simply
@@ -235,6 +237,7 @@ The original DETR models trained for 500 epochs:
 </table>
 
 
+*Model weights and logs will be released soon.*
 
 Our proposed SAM-DETR models (results reported in [our CVPR paper](https://arxiv.org/abs/2203.06883)):
 <table>
