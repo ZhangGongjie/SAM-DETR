@@ -144,7 +144,7 @@ code_root/
 ### Reproducing Paper Results
 
 All scripts to reproduce results reported in [our CVPR 2022 paper](https://arxiv.org/abs/2203.06883)
-are stored in ```./scripts```. If you are using slurm cluster, we also provide scripts for slurm cluster,
+are stored in ```./scripts```. We also provide scripts for slurm cluster,
 which are stored in ```./scripts_slurm```.
 
 Taking <b>SAM-DETR-R50 w/ SMCA (12 epochs)</b> for example, to reproduce its results, simply
@@ -153,10 +153,10 @@ run:
 bash scripts/r50_smca_e12_4gpu.sh
 ```
 
-Taking <b>SAM-DETR-R50 multiscale w/ SMCA (50 epochs)</b> for example, to reproduce its results, simply
+Taking <b>SAM-DETR-R50 multiscale w/ SMCA (50 epochs)</b> for example, to reproduce its results on a slurm cluster, simply
 run:
 ```shell
-bash scripts/r50_ms_smca_e50_8gpu.sh
+bash scripts_slurm/r50_ms_smca_e50_8gpu.sh
 ```
 
 Reminder: To reproduce results, please make sure the total batch size matches the implementation details described in our paper. For ```R50 (single-scale)```
