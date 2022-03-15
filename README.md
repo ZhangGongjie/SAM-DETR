@@ -5,8 +5,8 @@ CVPR 2022 paper "[Accelerating DETR Convergence via Semantic-Aligned Matching](h
 
 ## Introduction
 
-<b> TL;DR </b> &nbsp; SAM-DETR is an efficeint DETR-like object detector that
-converges wihtin 12 epochs and surpasses the strong Faster R-CNN baseline.
+<b> TL;DR </b> &nbsp; SAM-DETR is an efficeint DETR-like object detector that can
+converge wihtin 12 epochs and outperform the strong Faster R-CNN (w/ FPN) baseline.
 
 The recently developed DEtection TRansformer (DETR) has established a new
 object detection paradigm by eliminating a series of hand-crafted components.
