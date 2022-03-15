@@ -260,7 +260,7 @@ Our proposed SAM-DETR models (results reported in [our CVPR paper](https://arxiv
       <td>58</td>
       <td>100</td>
       <td>33.1</td>
-      <td><a href="pending">model</a> <br/> <a href="https://github.com/ZhangGongjie/SAM-DETR/tree/main/.assets/output_logs/r50_e12.txt">log</a></td>
+      <td><a href="pending">model</a> <br/> <a href=".assets/output_logs/r50_e12.txt">log</a></td>
     </tr>
     <tr>
       <td>SAM-DETR-R50 w/ SMCA</td>
@@ -268,7 +268,7 @@ Our proposed SAM-DETR models (results reported in [our CVPR paper](https://arxiv
       <td>58</td>
       <td>100</td>
       <td>36.0</td>
-      <td><a href="pending">model</a> <br/> <a href="pending">log</a></td>
+      <td><a href="pending">model</a> <br/> <a href=".assets/output_logs/r50_smca_e12.txt">log</a></td>
     </tr>
     <tr>
       <td>SAM-DETR-R50-DC5</td>
@@ -276,7 +276,7 @@ Our proposed SAM-DETR models (results reported in [our CVPR paper](https://arxiv
       <td>58</td>
       <td>210</td>
       <td>38.3</td>
-      <td><a href="pending">model</a> <br/> <a href="pending">log</a></td>
+      <td><a href="pending">model</a> <br/> <a href=".assets/output_logs/r50_dc5_e12.txt">log</a></td>
     </tr>
     <tr>
       <td>SAM-DETR-R50-DC5 w/ SMCA</td>
@@ -284,7 +284,7 @@ Our proposed SAM-DETR models (results reported in [our CVPR paper](https://arxiv
       <td>58</td>
       <td>210</td>
       <td>40.6</td>
-      <td><a href="pending">model</a> <br/> <a href="pending">log</a></td>
+      <td><a href="pending">model</a> <br/> <a href=".assets/output_logs/r50_dc5_smca_e12.txt">log</a></td>
     </tr>
     <tr>
       <td>SAM-DETR-R50</td>
@@ -292,7 +292,7 @@ Our proposed SAM-DETR models (results reported in [our CVPR paper](https://arxiv
       <td>58</td>
       <td>100</td>
       <td>39.8</td>
-      <td><a href="pending">model</a> <br/> <a href="pending">log</a></td>
+      <td><a href="pending">model</a> <br/> <a href=".assets/output_logs/r50_e50.txt">log</a></td>
     </tr>
     <tr>
       <td>SAM-DETR-R50 w/ SMCA</td>
@@ -300,7 +300,7 @@ Our proposed SAM-DETR models (results reported in [our CVPR paper](https://arxiv
       <td>58</td>
       <td>100</td>
       <td>41.8</td>
-      <td><a href="pending">model</a> <br/> <a href="pending">log</a></td>
+      <td><a href="pending">model</a> <br/> <a href=".assets/output_logs/r50_smca_e50.txt">log</a></td>
     </tr>
     <tr>
       <td>SAM-DETR-R50-DC5</td>
@@ -308,7 +308,7 @@ Our proposed SAM-DETR models (results reported in [our CVPR paper](https://arxiv
       <td>58</td>
       <td>210</td>
       <td>43.3</td>
-      <td><a href="pending">model</a> <br/> <a href="pending">log</a></td>
+      <td><a href="pending">model</a> <br/> <a href=".assets/output_logs/r50_dc5_e50.txt">log</a></td>
     </tr>
     <tr>
       <td>SAM-DETR-R50-DC5 w/ SMCA</td>
@@ -316,7 +316,7 @@ Our proposed SAM-DETR models (results reported in [our CVPR paper](https://arxiv
       <td>58</td>
       <td>210</td>
       <td>45.0</td>
-      <td><a href="pending">model</a> <br/> <a href="pending">log</a></td>
+      <td><a href="pending">model</a> <br/> <a href=".assets/output_logs/r50_dc5_smca_e50.txt">log</a></td>
     </tr>
   </tbody>
 </table>
@@ -344,7 +344,7 @@ Our proposed multi-scale SAM-DETR models (results to appear in a journal extensi
       <td>55</td>
       <td>203</td>
       <td>41.1</td>
-      <td><a href="pending">model</a> <br/> <a href="pending">log</a></td>
+      <td><a href="pending">model</a> <br/> <a href=".assets/output_logs/r50_ms_e12.txt">log</a></td>
     </tr>
     <tr>
       <td>SAM-DETR-R50-MS w/ SMCA</td>
@@ -352,7 +352,7 @@ Our proposed multi-scale SAM-DETR models (results to appear in a journal extensi
       <td>55</td>
       <td>203</td>
       <td>42.9</td>
-      <td><a href="pending">model</a> <br/> <a href="pending">log</a></td>
+      <td><a href="pending">model</a> <br/> <a href=".assets/output_logs/r50_ms_smca_e12.txt">log</a></td>
     </tr>
     <tr>
       <td>SAM-DETR-R50-MS</td>
@@ -360,7 +360,7 @@ Our proposed multi-scale SAM-DETR models (results to appear in a journal extensi
       <td>55</td>
       <td>203</td>
       <td>46.1</td>
-      <td><a href="pending">model</a> <br/> <a href="pending">log</a></td>
+      <td><a href="pending">model</a> <br/> <a href=".assets/output_logs/r50_ms_e50.txt">log</a></td>
     </tr>
     <tr>
       <td>SAM-DETR-R50-MS w/ SMCA</td>
@@ -368,7 +368,7 @@ Our proposed multi-scale SAM-DETR models (results to appear in a journal extensi
       <td>55</td>
       <td>203</td>
       <td>47.0</td>
-      <td><a href="pending">model</a> <br/> <a href="pending">log</a></td>
+      <td><a href="pending">model</a> <br/> <a href=".assets/output_logs/r50_ms_smca_e50.txt">log</a></td>
     </tr>
   </tbody>
 </table>
