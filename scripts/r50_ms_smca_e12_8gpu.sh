@@ -8,14 +8,13 @@ if [ ! -d "${EXP_DIR}" ]; then
     mkdir ${EXP_DIR}
 fi
 
-srun -p dsta \
-    --job-name=t8 \
+srun -p cluster_name \
+    --job-name=SAM-DETR \
     --gres=gpu:8 \
     --ntasks=8 \
     --ntasks-per-node=8 \
-    --cpus-per-task=4 \
+    --cpus-per-task=2 \
     --kill-on-bad-exit=1 \
-    -w SG-IDC1-10-51-2-34 \
     python main.py \
     --batch_size 2 \
     --smca \
