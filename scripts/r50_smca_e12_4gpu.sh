@@ -17,3 +17,5 @@ python -m torch.distributed.launch \
     --lr_drop 10 \
     --output_dir ${EXP_DIR} \
      2>&1 | tee ${EXP_DIR}/detailed_log.txt
+
+     
