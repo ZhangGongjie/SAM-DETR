@@ -13,7 +13,7 @@ attributed to the complication in matching object queries to encoded image featu
 in DETR's decoder cross-attention modules.
 
 <div align=center>  
-<img src='.assets/matching_complication.jpg' width="62.5%">
+<img src='.assets/matching_complication.jpg' width="68%">
 </div>
 
 Motivated by this observation, in our paper, we propose SAM-DETR, a
@@ -35,7 +35,7 @@ reference box for each object query, whose center location is used to generate
 corresponding position embeddings.
 
 <div align=center>  
-<img src='.assets/decoder_layer.jpg' width="72.5%">
+<img src='.assets/decoder_layer.jpg' width="86.5%">
 </div>
 
 The figure below illustrates the architecture of the appended "Semantics Aligner", which
@@ -43,7 +43,7 @@ aligns the semantics of "encoded image features" and "object queries" by resampl
 from multiple salient points as new object queries.
 
 <div align=center>  
-<img src='.assets/semantics_aligner.jpg' width="65%">
+<img src='.assets/semantics_aligner.jpg' width="75%">
 </div>
 
 Being like a plug-and-play, our approach can be
@@ -118,7 +118,7 @@ python test.py  # unit test (should see all checking is True)
 Please download [COCO 2017 dataset](https://cocodataset.org/) and organize them as following:
 
 ```
-sam_detr_root/
+code_root/
 ©¸©¤©¤ data/
     ©¸©¤©¤ coco/
         ©À©¤©¤ train2017/
@@ -127,7 +127,6 @@ sam_detr_root/
         	©À©¤©¤ instances_train2017.json
         	©¸©¤©¤ instances_val2017.json
 ```
-
 
 
 
