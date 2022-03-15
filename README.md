@@ -167,12 +167,11 @@ experiments, we use 8 GPUs with a batch size of 1 on each GPU.
 
 
 ### Training
-To perform training on COCO *train2017*, run:
+To perform training on COCO *train2017*, modify the arguments based on the scripts below:
 ```shell
 python -m torch.distributed.launch \
     --nproc_per_node=4 \        # number of GPUs to perform training
-    --use_env \
-    main.py \
+    --use_env main.py \
     --batch_size 4 \            # batch_size on individual GPU (this is *NOT* total batch_size)
     --smca \                    # to integrate with SMCA, remove this line to disable SMCA
     --dilation \                # to enable DC5, remove this line to disable DC5
@@ -184,12 +183,11 @@ python -m torch.distributed.launch \
 More arguments and their explanations are available at ```main.py```.
 
 ### Evaluation
-To evaluate a model on COCO *val2017*, simply add ```--resume``` and ```--eval``` arguments:
+To evaluate a model on COCO *val2017*, simply add ```--resume``` and ```--eval``` arguments to your training scripts:
 ```shell
 python -m torch.distributed.launch \
     --nproc_per_node=4 \
-    --use_env \
-    main.py \
+    --use_env main.py \
     --batch_size 4 \
     --smca \
     --dilation \                

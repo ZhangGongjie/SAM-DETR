@@ -8,14 +8,9 @@ if [ ! -d "${EXP_DIR}" ]; then
     mkdir ${EXP_DIR}
 fi
 
-srun -p cluster_name \
-    --job-name=SAM-DETR \
-    --gres=gpu:4 \
-    --ntasks=4 \
-    --ntasks-per-node=4 \
-    --cpus-per-task=2 \
-    --kill-on-bad-exit=1 \
-    python main.py \
+python -m torch.distributed.launch \
+    --nproc_per_node=4 \
+    --use_env main.py \
     --batch_size 4 \
     --smca \
     --epochs 50 \
