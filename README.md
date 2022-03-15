@@ -5,6 +5,9 @@ CVPR 2022 paper "[Accelerating DETR Convergence via Semantic-Aligned Matching](h
 
 ## Introduction
 
+<b> TL;DR </b> &nbsp; SAM-DETR is an efficeint DETR-like object detector that
+converges wihtin 12 epochs and surpasses the strong Faster R-CNN baseline.
+
 The recently developed DEtection TRansformer (DETR) has established a new
 object detection paradigm by eliminating a series of hand-crafted components.
 However, DETR suffers from extremely slow convergence, which increases the
@@ -50,7 +53,7 @@ Being like a plug-and-play, our approach can be
 easily integrated with existing convergence solutions (e.g., SMCA) in a complementary manner,
 boosting detection accuracy and convergence speed further.
 
-Please check [our CVPR'2022 paper](https://arxiv.org/abs/2203.06883) for more details.
+Please check [our CVPR 2022 paper](https://arxiv.org/abs/2203.06883) for more details.
 
 
 
@@ -104,7 +107,7 @@ conda install cython scipy tqdm
 pip install -U 'git+https://github.com/cocodataset/cocoapi.git#subdirectory=PythonAPI'
 ```
 
-<b>*[Optional]*</b> &nbsp; &nbsp; If you wish to run multi-scale version of SAM-DETR (results not reported in the CVPR paper), you need to compile [*Deformable Attention*](https://github.com/fundamentalvision/Deformable-DETR),
+<b>*[Optional]*</b> &nbsp;  If you wish to run multi-scale version of SAM-DETR (results not reported in the CVPR paper), you need to compile [*Deformable Attention*](https://github.com/fundamentalvision/Deformable-DETR),
 which is used in DETR encoder to generate feature pyramid efficiently. If you don't need multi-scale
 version of SAM-DETR, you may skip this step.
 ```bash
