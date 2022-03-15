@@ -260,7 +260,7 @@ Our proposed SAM-DETR models (results reported in [our CVPR paper](https://arxiv
       <td>58</td>
       <td>100</td>
       <td>33.1</td>
-      <td><a href="pending">model</a> <br/> <a href="pending">log</a></td>
+      <td><a href="pending">model</a> <br/> <a href="https://github.com/ZhangGongjie/SAM-DETR/tree/main/.assets/output_logs/r50_e12.txt">log</a></td>
     </tr>
     <tr>
       <td>SAM-DETR-R50 w/ SMCA</td>
