@@ -144,7 +144,8 @@ code_root/
 ### Reproducing Paper Results
 
 All scripts to reproduce results reported in [our CVPR 2022 paper](https://arxiv.org/abs/2203.06883)
-are stored in ```./scripts```. 
+are stored in ```./scripts```. If you are using slurm cluster, we also provide scripts for slurm cluster,
+which are stored in ```./scripts_slurm```.
 
 Taking <b>SAM-DETR-R50 w/ SMCA (12 epochs)</b> for example, to reproduce its results, simply
 run:
