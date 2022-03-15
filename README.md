@@ -1,7 +1,7 @@
 # SAM-DETR (Semantic-Aligned-Matching DETR)
 
 This repository is an official PyTorch implementation of the
-CVPR 2022 paper "[Accelerating DETR Convergence via Semenatics-Aligned Matching](https://arxiv.org/abs/2203.06883)". 
+CVPR 2022 paper "[Accelerating DETR Convergence via Semantic-Aligned Matching](https://arxiv.org/abs/2203.06883)". 
 
 ## Introduction
 
@@ -394,10 +394,10 @@ If you find SAM-DETR useful or inspiring, please consider citing:
 
 ```bibtex
 @inproceedings{zhang2022-SAMDETR,
-  title       = {Accelerating {DETR} Convergence via Semantic-Aligned Matching},
-  author      = {Zhang, Gongjie and Luo, Zhipeng and Yu, Yingchen and Cui, Kaiwen and Lu, Shijian},
-  booktitle   = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-  year        = {2022}
+  title      = {Accelerating {DETR} Convergence via Semantic-Aligned Matching},
+  author     = {Zhang, Gongjie and Luo, Zhipeng and Yu, Yingchen and Cui, Kaiwen and Lu, Shijian},
+  booktitle  = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year       = {2022}
 }
 ```
 
