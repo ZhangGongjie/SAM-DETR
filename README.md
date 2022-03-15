@@ -351,7 +351,7 @@ Our proposed multi-scale SAM-DETR models (results to appear in a journal extensi
       <td>12</td>
       <td>55</td>
       <td>203</td>
-      <td>42.9</td>
+      <td>42.8</td>
       <td><a href="pending">model</a> <br/> <a href=".assets/output_logs/r50_ms_smca_e12.txt">log</a></td>
     </tr>
     <tr>
