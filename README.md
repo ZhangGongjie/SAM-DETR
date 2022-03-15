@@ -172,13 +172,13 @@ python -m torch.distributed.launch \
     --nproc_per_node=4 \        # number of GPUs to perform training
     --use_env \
     main.py \
-    --batch_size 4 \            # batch_size on each GPU (NOT total batch_size)
-    --smca \                    # integrate with SMCA, remove this line to disable SMCA
-    --dilation \                # enable DC5, remove this line to disable DC5
-    --multiscale \              # enable multi-scale, remove this line to disable multiscale
+    --batch_size 4 \            # batch_size on individual GPU (this is *NOT* total batch_size)
+    --smca \                    # to integrate with SMCA, remove this line to disable SMCA
+    --dilation \                # to enable DC5, remove this line to disable DC5
+    --multiscale \              # to enable multi-scale, remove this line to disable multiscale
     --epochs 50 \               # total number of epochs to train
     --lr_drop 40 \              # when to drop learning rate
-    --output_dir output/xxxx    # where to store outputs, remove this line for no storing
+    --output_dir output/xxxx    # where to store outputs, remove this line for no storing outputs
 ```
 More arguments and their explanations are available at ```main.py```.
 
