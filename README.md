@@ -383,7 +383,7 @@ The implementation codes of SAM-DETR are released under the MIT license.
 
 Please see the [LICENSE](LICENSE) file for more information.
 
-
+However, prior works' licenses also apply. It is your responsibility to ensure you comply with all license requirements.
 
 ## Citation
 
