@@ -260,7 +260,7 @@ Our proposed SAM-DETR models (results reported in [our CVPR paper](https://arxiv
       <td>58</td>
       <td>100</td>
       <td>33.1</td>
-      <td><a href="https://entuedu-my.sharepoint.com/:u:/g/personal/gongjiezhang_staff_main_ntu_edu_sg/ERU8_BC3vYVJoHqkt5r5tT4BwubilcbLqsLGq7fOqpuX7A?e=vdwjYr">model</a> <br/> <a href=".assets/output_logs/r50_e12.txt">log</a></td>
+      <td><a href="https://drive.google.com/file/d/1RXGs50nXkYBlYKFjI8nzt2ZDfLEVsLJZ/view?usp=sharing">model</a> <br/> <a href=".assets/output_logs/r50_e12.txt">log</a></td>
     </tr>
     <tr>
       <td>SAM-DETR-R50 w/ SMCA</td>
@@ -268,7 +268,7 @@ Our proposed SAM-DETR models (results reported in [our CVPR paper](https://arxiv
       <td>58</td>
       <td>100</td>
       <td>36.0</td>
-      <td><a href="https://entuedu-my.sharepoint.com/:u:/g/personal/gongjiezhang_staff_main_ntu_edu_sg/EVDpQdSpPzpPlL04SCrdvhwBDxUkcdMLz29n4uPAbKKVZQ?e=pRefYa">model</a> <br/> <a href=".assets/output_logs/r50_smca_e12.txt">log</a></td>
+      <td><a href="https://drive.google.com/file/d/16ucFXgf0lrgzLArdmFzn3oOn3eGUrCU4/view?usp=sharing">model</a> <br/> <a href=".assets/output_logs/r50_smca_e12.txt">log</a></td>
     </tr>
     <tr>
       <td>SAM-DETR-R50-DC5</td>
