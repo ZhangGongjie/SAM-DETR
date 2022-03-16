@@ -205,6 +205,8 @@ python -m torch.distributed.launch \
 
 ## Model Zoo
 
+*Trained model weights are stored in Google Drive.*
+
 The original DETR models trained for 500 epochs:
 
 <table>
@@ -238,8 +240,6 @@ The original DETR models trained for 500 epochs:
   </tbody>
 </table>
 
-
-*Model weights and logs will be released soon.*
 
 Our proposed SAM-DETR models (results reported in [our CVPR paper](https://arxiv.org/abs/2203.06883)):
 <table>
@@ -316,7 +316,7 @@ Our proposed SAM-DETR models (results reported in [our CVPR paper](https://arxiv
       <td>58</td>
       <td>210</td>
       <td>45.0</td>
-      <td><a href="pending">model</a> <br/> <a href=".assets/output_logs/r50_dc5_smca_e50.txt">log</a></td>
+      <td><a href="https://drive.google.com/file/d/1q_iWQOZl1zXtaVD4vI4V9piwj2tkE8ek/view?usp=sharing">model</a> <br/> <a href=".assets/output_logs/r50_dc5_smca_e50.txt">log</a></td>
     </tr>
   </tbody>
 </table>
