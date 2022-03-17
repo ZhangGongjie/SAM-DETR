@@ -50,7 +50,7 @@ from multiple salient points as new object queries.
 </div>
 
 Being like a plug-and-play, our approach can be
-easily integrated with existing convergence solutions (e.g., SMCA) in a complementary manner,
+easily integrated with existing convergence solutions (*e.g.*, SMCA) in a complementary manner,
 boosting detection accuracy and convergence speed further.
 
 Please check [our CVPR 2022 paper](https://arxiv.org/abs/2203.06883) for more details.
@@ -376,7 +376,7 @@ Our proposed multi-scale SAM-DETR models (results to appear in a journal extensi
 Note:
 1. AP is computed on *COCO val2017*.
 2. "DC5" means removing the stride in C5 stage of ResNet and add a dilation of 2 instead.
-3. The GFLOPs of our models are measured using [fvcore](https://github.com/facebookresearch/fvcore) on the first 100 images in *COCO val2017*. GFLOPs varies from input image sizes. There may exist slight variations from actual values.
+3. The GFLOPs of our models are estimated using [fvcore](https://github.com/facebookresearch/fvcore) on the first 100 images in *COCO val2017*. GFLOPs varies as input image sizes change. There may exist slight difference from actual values.
 
 
 
