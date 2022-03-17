@@ -11,7 +11,6 @@ import torch
 import torch.nn as nn
 from torch import Tensor
 
-from models.ops.modules import MSDeformAttn
 from models.misc import _get_clones, _get_activation_fn
 
 
@@ -124,6 +123,7 @@ class DeformableTransformerEncoderLayer(nn.Module):
         self.n_points = 4
 
         # self attention
+        from models.ops.modules import MSDeformAttn
         self.self_attn = MSDeformAttn(self.d_model, self.n_feature_levels, self.nheads, self.n_points)
         self.dropout1 = nn.Dropout(self.dropout)
         self.norm1 = nn.LayerNorm(self.d_model)
