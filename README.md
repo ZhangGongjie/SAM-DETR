@@ -4,7 +4,7 @@
 [![Survey](https://github.com/sindresorhus/awesome/blob/main/media/mentioned-badge.svg)](https://github.com/dk-liang/Awesome-Visual-Transformer) 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) 
 [![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com) 
-[![GitHub license](https://badgen.net/github/license/Naereen/Strapdown.js)](https://github.com/ZhangGongjie/SAM-DETR/blob/master/LICENSE)
+[![GitHub license](https://badgen.net/github/license/ZhangGongjie/SAM-DETR)](https://github.com/ZhangGongjie/SAM-DETR/blob/master/LICENSE)
 
 This repository is an official PyTorch implementation of the
 CVPR 2022 paper "[Accelerating DETR Convergence via Semantic-Aligned Matching](https://arxiv.org/abs/2203.06883)". 
