@@ -184,7 +184,7 @@ python -m torch.distributed.launch \
     --multiscale \              # to enable multi-scale, remove this line to disable multiscale
     --epochs 50 \               # total number of epochs to train
     --lr_drop 40 \              # when to drop learning rate
-    --output_dir output/xxxx    # where to store outputs, remove this line for no storing outputs
+    --output_dir output/xxxx    # where to store outputs, remove this line for not storing outputs
 ```
 More arguments and their explanations are available at ```main.py```.
 
