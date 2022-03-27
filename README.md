@@ -48,7 +48,7 @@ corresponding position embeddings.
 </div>
 
 The figure below illustrates the architecture of the appended "Semantics Aligner", which
-aligns the semantics of "encoded image features" and "object queries" by resampling features 
+aligns the semantics of "encoded image features" and "object queries" by re-sampling features 
 from multiple salient points as new object queries.
 
 <div align=center>  
