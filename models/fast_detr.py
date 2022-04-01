@@ -138,7 +138,7 @@ class FastDETR(nn.Module):
 
         out = {'pred_logits': outputs_class[-1], 'pred_boxes': outputs_coords[-1]}
         if self.aux_loss:
-           out['aux_outputs'] = self._set_aux_loss(outputs_class, outputs_coords)
+            out['aux_outputs'] = self._set_aux_loss(outputs_class, outputs_coords)
 
         return out
 
