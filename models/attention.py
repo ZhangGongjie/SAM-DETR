@@ -20,15 +20,25 @@ import warnings
 import torch
 from torch import Tensor
 from torch.nn.modules.module import Module
-from torch.nn.modules.linear import _LinearWithBias
+from torch.nn.modules.linear import Linear
 from torch.nn.init import constant_
 from torch.nn.functional import linear, pad, softmax, dropout
 from torch._jit_internal import Optional, Tuple
 
-if float(torch.__version__[:3]) < 1.7:
+
+assert float(torch.__version__.split('.')[0]) >= 1, "PyTorch version should be >= 1.5.1"
+if float(torch.__version__.split('.')[1]) < 7:
     from torch._overrides import has_torch_function, handle_torch_function
 else:
     from torch.overrides import has_torch_function, handle_torch_function
+
+
+# This class exists solely for Transformer; it has an annotation stating
+# that bias is never None, which appeases TorchScript
+class _LinearWithBias(Linear):
+    bias: Tensor  # type: ignore
+    def __init__(self, in_features: int, out_features: int) -> None:
+        super().__init__(in_features, out_features, bias=True)  # type: ignore
 
 
 class MultiheadAttention(Module):
