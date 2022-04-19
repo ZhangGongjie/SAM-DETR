@@ -207,7 +207,7 @@ python -m torch.distributed.launch \
 
 
 ### Visualize Detection Results
-We perform `demo.py`, which is a minimal implementation that allows users to visualize model's detection predictions. It performs detection on images inside the `./images` folder, and stores detection results visualizations on that folder. Taking <b>SAM-DETR-R50 w/ SMCA (50 epochs)</b> for example, simply run:
+We provide `demo.py`, which is a minimal implementation that allows users to visualize model's detection predictions. It performs detection on images inside the `./images` folder, and stores detection visualizations on that folder. Taking <b>SAM-DETR-R50 w/ SMCA (50 epochs)</b> for example, simply run:
 ```shell
 python demo.py \                       # do NOT use distributed mode
     --batch_size 1 \
