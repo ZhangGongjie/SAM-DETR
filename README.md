@@ -9,6 +9,8 @@
 This repository is an official PyTorch implementation of the
 CVPR 2022 paper "[Accelerating DETR Convergence via Semantic-Aligned Matching](https://arxiv.org/abs/2203.06883)". 
 
+<b>*[UPDATE on 21 Apr 2022]*</b> &nbsp;  We found that with a very simple modifications (with no extra computational cost), SAM-DETR can achieve better performance. On MS-COCO, **SAM-DETR w/ SMCA** can achieve **37.0 AP** within 12 epochs, and **42.7 AP** within 50 epochs. We will release the updated training scripts, model weights, and logs in the future. Please stay tuned!
+
 ## Introduction
 
 <b> TL;DR </b> &nbsp; SAM-DETR is an efficeint DETR-like object detector that can
