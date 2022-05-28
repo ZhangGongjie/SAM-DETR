@@ -41,7 +41,7 @@ show that the proposed SAM-DETR achieves superior convergence as well as
 competitive detection accuracy.
 
 At the core of SAM-DETR is a plug-and-play module named "Semantics Aligner" appended
-ahead of the cross-attention module in each DETR's decoder layer. It also models a learnable
+ahead of the cross-attention module in DETR's each decoder layer. It also models a learnable
 reference box for each object query, whose center location is used to generate
 corresponding position embeddings.
 
