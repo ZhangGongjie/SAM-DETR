@@ -415,7 +415,8 @@ If you find SAM-DETR useful or inspiring, please consider citing:
   title      = {Accelerating {DETR} Convergence via Semantic-Aligned Matching},
   author     = {Zhang, Gongjie and Luo, Zhipeng and Yu, Yingchen and Cui, Kaiwen and Lu, Shijian},
   booktitle  = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-  year       = {2022}
+  pages      = {949-958},
+  year       = {2022},
 }
 ```
 
